@@ -8,4 +8,4 @@ you could use your own picture, but i also give you the default in asset file
 1. go to @Botfather and ask for new bot
 2. don't forget to copy your token
 3. send first message to make sure your bot is active
-4. go to https://api.telegram.org/bot and add your token API chatbot here /sendMessage to copy your id
+4. go to https://api.telegram.org/bot and add your token API chatbot here /sendMessage >> to copy your id
