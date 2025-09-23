@@ -1,5 +1,5 @@
 # ConfessCoercion
-confess your feeling to your boyfriend and it will ensure that he said "yes!"
+confess your feeling to your boyfriend and it will ensure that he said "yes!" psst! you could edit and make this for everything! run it fast on python anywhere!
 # Module you need
 PIL, requests, tkinter, random
 # Picture
