@@ -259,11 +259,11 @@ button.pack()
 
 tk.Button(root, text="translate it 💬", command=open_other).pack()
 
-TELEGRAM_TOKEN = "7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw"
-CHAT_ID = "6456481046"
+TELEGRAM_TOKEN = "YOUR TOKEN"
+CHAT_ID = "YOUR CHAT ID"
 
 def kirim_telegram(pesan):
-    url = f"https://api.telegram.org/bot7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw/sendMessage"
+    url = f"https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/sendMessage"
     data = {
         "chat_id": CHAT_ID,
         "text": pesan
