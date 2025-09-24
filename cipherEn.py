@@ -18,21 +18,21 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return encrypt(text, -shift)
 
+def handle_decrypt():
+    text = entry_text.get()
+    try:
+        shift = int(entry_shift.get())
+        result = decrypt(text, shift)
+        result_label.config(text=f"your decryption result : {result}")
+    except ValueError:
+        messagebox.showerror("seriously huh?", "enter the shift number first!")
+        
 def handle_encrypt():
     text = entry_text.get()
     try:
         shift = int(entry_shift.get())
         result = encrypt(text, shift)
         result_label.config(text=f"your encryption result : {result}")
-    except ValueError:
-        messagebox.showerror("seriously huh?", "enter the shift number first!")
-        
-def handle_decrypt():
-    text = entry_text.get()
-    try:
-        shift = int(entry_shift.get())
-        result = encrypt(text, shift)
-        result_label.config(text=f"your decryption result : {result}")
         
     except ValueError:
         messagebox.showerror("seriously huh?", "enter the shift number first!")
