@@ -15,21 +15,21 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return encrypt(text, -shift)
 
-def handle_encrypt():
-    text = entry_text.get()
-    try:
-        shift = int(entry_shift.get())
-        result = encrypt(text, shift)
-        result_label.config(text=f"hasil enkripsi kamu : {result}")
-    except ValueError:
-        messagebox.showerror("hehe gimana sih..", "shift nya BELUM DIMASUKIN!!")
-
 def handle_decrypt():
     text = entry_text.get()
     try:
         shift = int(entry_shift.get())
         result = decrypt(text, shift)
         result_label.config(text=f"hasil dekripsi kamu : {result}")
+    except ValueError:
+        messagebox.showerror("hehe gimana sih..", "shift nya BELUM DIMASUKIN!!")
+
+def handle_encrypt():
+    text = entry_text.get()
+    try:
+        shift = int(entry_shift.get())
+        result = encrypt(text, shift)
+        result_label.config(text=f"hasil enkripsi kamu : {result}")
         
     except ValueError:
         messagebox.showerror("hehe gimana sih..", "shift nya BELUM DIMASUKIN!!")
