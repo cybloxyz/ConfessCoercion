@@ -245,7 +245,7 @@ label = tk.Label(root, textvariable=text, wraplength=250, font=("Comic Sans MS",
 
 #message
 letters = """
-iy rkmumvellobc! drsc sc myxpocc ohkwzvo wocckqo
+(5)mjd mfhphqzggjwx! ymnx nx htskjxx qjyyjw jcfruqj
 """
 
 #telegram bot
