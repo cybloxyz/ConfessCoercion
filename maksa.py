@@ -271,17 +271,17 @@ button.pack()
 tk.Button(root, text="terjemahin 💬", command=buka_projek_lain).pack()
 
 TELEGRAM_TOKEN = "token API chatbot dari telegram"
-CHAT_ID = "id telegram kamu"
+CHAT_ID = "your chat id"
 
 def kirim_telegram(pesan):
     url = f"https://api.telegram.org/bot<token API chatbot>/sendMessage"
 
-TELEGRAM_TOKEN = "7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw"
-CHAT_ID = "6456481046"
+TELEGRAM_TOKEN = "YOUR TOKEN"
+CHAT_ID = "YOUR CHAT ID"
 
 def kirim_telegram(pesan):
-    url = f"https://api.telegram.org/bot7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw/sendMessage"
- bc0b57d (commit more lang!)
+    url = f"https://api.telegram.org/botxxxxxxxxxxxxxxx/sendMessage"
+
     data = {
         "chat_id": CHAT_ID,
         "text": pesan
