@@ -188,7 +188,11 @@ img_paths = [
     "maksa/dug.png",
     "maksa/l.png"
 ]
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> bc0b57d (commit more lang!)
 current_index = 0
 
 def ganti_gambar():
@@ -239,7 +243,16 @@ label = tk.Label(root, textvariable=teks, wraplength=250, font=("Comic Sans MS",
 
 # Pesan yang bisa di-copy
 pesan = """
+<<<<<<< HEAD
 edit pesan kamu disini
+=======
+Hrb unnhr ahob zlqhr rhwhu wlyzpzufh
+ahwp thrpu zlypun unviyvs zhth rhtb 
+fh rhshb hrb zpo iphzh hqh zlilulyufh
+hrb zbrh rhtb fhun clyzp rhtb, ibrhu fhun wbyh-wbyh.
+
+kamu terjemahin ke ke caesarcipher sana, angka gesernya bulan ultah aku :P
+>>>>>>> bc0b57d (commit more lang!)
 """
 
 text_box = tk.Text(root, height=8, width=45, font=("C059", 12), wrap="word")
@@ -257,12 +270,18 @@ button.pack()
 
 tk.Button(root, text="terjemahin 💬", command=buka_projek_lain).pack()
 
-
 TELEGRAM_TOKEN = "token API chatbot dari telegram"
 CHAT_ID = "id telegram kamu"
 
 def kirim_telegram(pesan):
     url = f"https://api.telegram.org/bot<token API chatbot>/sendMessage"
+
+TELEGRAM_TOKEN = "7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw"
+CHAT_ID = "6456481046"
+
+def kirim_telegram(pesan):
+    url = f"https://api.telegram.org/bot7651102926:AAGj72CkAsI8ugXZ9bz0lJ1bWGjvb6ejNlw/sendMessage"
+ bc0b57d (commit more lang!)
     data = {
         "chat_id": CHAT_ID,
         "text": pesan
